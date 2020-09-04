@@ -17,7 +17,7 @@ const NUM = 40;      // number of element
 const MSEC = 30;     // update interval(millimeters second)
 const MAX_SIZE = 15; // maximum size(pixel)
 const MIN_SIZE = 5;  // minimum size(pixel)
-const DROP = 1.3;      // drop speed
+const DROP = 1.2;      // drop speed
 const AMPL = 0.08;   // amplitude rate
 const WIND = 0;      // quantity of wind(positive:right,negative:left)
 const PLC = 0;       // place to display
@@ -254,8 +254,3 @@ $(".btn-trigger").on("click",function(){
 		$(this).toggleClass("active");
 		$(".header_nav").fadeToggle(500);
 });
-
-
-
-
-
