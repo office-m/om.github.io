@@ -53,7 +53,6 @@ input, button, textarea, select {
 .global-nav ul li{
 	width: 100%;
 	text-align: center;
-	vertical-align: bottom;
 }
 
 .global-nav ul li a{
@@ -88,7 +87,7 @@ input, button, textarea, select {
 }
 
 .instagram{
-	max-width: 20%;
+	max-width: 18%;
 }
 
 .global-nav ul .site-title{
@@ -187,7 +186,7 @@ position: relative;
 *-------------------*/
 .firstview-box{
   box-sizing: border-box;
-  padding: 25% 0;
+  padding: 25% 0 15%;
   width:100%;
   height:auto;
   display: flex;
@@ -208,8 +207,9 @@ position: relative;
   text-align: left;
 }
 .catchcopy:first-letter{
-	color:#F74F52;
+	color:#E33720;
 }
+
 
 .man {
   flex:1 1 auto;
@@ -219,6 +219,7 @@ position: relative;
 .man>img{
 	max-width: 150%;
 }
+
 .scroll{
 	display: flex;
 	justify-content: center;
@@ -258,6 +259,7 @@ position: relative;
     transform: rotate(-45deg) translate(0, 0);
   }
 }
+
 
 /*------------------
 *trainer
@@ -581,7 +583,7 @@ position: relative;
 *-------------------*/
 .btn-contact{
 	text-align: center;
-	margin:120px 0 88px;
+	margin:152px 0 80px;
 }
 .btn-square-so-pop {
   margin: 0 auto;
