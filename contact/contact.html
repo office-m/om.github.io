@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>English lab.</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">	
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../contact/style.css">
+<link href="https://fonts.googleapis.com/css?family=Crete+Round|Noto+Sans+JP&display=swap&subset=japanese" rel="stylesheet">
+</head>
+<!--contactページ-------------------------------------->
+<body>
+<header class="site-header">
+		<h1 class="site-title-sp"><a href="../index.html">English lab.</a></h1>
+	        <div class="header_nav">	
+				<nav class="global-nav" id="scrollbar">
+					<ul class="global-nav__list">
+						<li class="site-title"><a href="../index.html">English lab.</a></li>
+						<li class="global-nav__item"><a href="../index.html#item-1">TRAINER</a></li>
+						<li class="global-nav__item"><a href="../index.html#item-2">FEATURE</a></li>
+						<li class="global-nav__item"><a href="../index.html#item-3">COURSE</a></li>
+						<li class="global-nav__item"><a href="../index.html#item-4">STUDIO</a></li>
+						<li class="global-nav__item"><a href="../index.html#item-5">INTERVIEW</a></li>
+						<li class="global-nav__item"><a href="./contact/contact.html">CONTACT</a></li>
+						<li class="global-nav__item sns"><a href="https://www.instagram.com/yutooki0319/?hl=ja"><img src="../images/instagram.png" alt="インスタのアイコン" class="instagram"></a></li>
+					</ul>
+				</nav>
+		    </div>
+		    <div class="btn-trigger" id="nav_btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+</header>
+<div class="inner">
+<!----contact-->
+<section>
+	<div class="inner-box mb192">
+	  <h2 class="section-title ff-jp">お問い合わせ・無料体験</h2>
+	 <ul class="contact-flow">
+		 <li>
+			<div class="media">
+				<div class="media-head-icon mg0"><img src="../images/smartphone.png" alt="スマートフォンのイラスト"></div>
+				<div class="media-body">
+					<h3 class="c-hedding">step1</h3>
+					<p>フォームからご予約</p>
+				</div>
+			</div>
+		 </li>
+		 <li>
+			<div class="media">
+				<div class="media-head-icon"><img src="../images/mail-tel.png" alt="メール・電話のイラスト"></div>
+				<div class="media-body">
+					<h3 class="c-hedding">step2</h3>
+					<p>メール・お電話でご連絡</p>
+				</div>
+			</div>
+		 </li>
+		 <li>
+			 <div class="media">
+				<div class="media-head-icon"><img src="../images/schedule.png" alt="カレンダーのイラスト"></div>
+				<div class="media-body">
+					<h3 class="c-hedding">step3</h3>
+					<p>日程の調整</p>
+				</div>
+			 </div>
+		 </li>
+	  </ul>
+	  <div class="container-c">
+		  <form method="post" name="select" action="#">
+			<div class="form-group">
+				<dl>	
+					<dt class="form-title"><label for="inputAdress">お名前</label><span class="require">必須</span></dt>
+					<dd><input type="text" class="form-control" id="inputName" name="name" placeholder="例）英語太郎"></dd>
+				</dl>	
+			</div>
+			<div class="form-group">
+				<dl>
+					<dt class="form-title"><label for="inputAdress">お名前（フリガナ）</label><span class="require">必須</span></dt>
+					<dd><input type="text" class="form-control" id="inputAdress" name="kana" placeholder="例）エイゴタロウ"></dd>
+				</dl>
+			</div>
+			<div class="form-group">
+				<dl>
+					<dt class="form-title"><label for="exampleInputEmail1">電話番号</label><span class="require">必須</span></dt>
+					<dd><input type="tell" class="form-control" id="inputTel" name="telnumber" placeholder="例）08012345678"></dd>
+				</dl>				
+			</div>
+			<div class="form-group">
+				<dl>
+				<dt class="form-title"><label for="exampleInputEmail1">メールアドレス</label><span class="require">必須</span></dt>
+				<dd><input type="e-mail" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="taro.englishlab.jp"></dd>
+				</dl>
+			</div>
+			<div class="form-group">
+				<dl>
+					<dt class="form-title"><label for="InpntLevel">現在の英語力目安</label><span class="require">必須</span></dt>
+					<dd>
+						<select class="form-control" id="exampleFormControlSelect1" name="level" >
+							<option value disabeled selected style="display:none;">該当レベルを選択してください</option>
+							<option value="初心者（TOEIC 300未満）">初心者（TOEIC 300未満）</option>
+							<option value="初級者（TOEIC 300~500未満）">初級者（TOEIC 300~500未満）</option>
+							<option value="中級者（TOEIC 500~700未満）">中級者（TOEIC 500~700未満）</option>
+							<option value="中上級者（TOEIC 700~800未満）">中上級者（TOEIC 700~800未満）</option>
+							<option value="上級者（TOEIC 800以上）">上級者（TOEIC 800以上）</option>
+						</select>
+					</dd>
+				</dl>
+			</div>
+			<div class="form-group">
+				<dl>
+					<dt class="form-title"><label for="exampleFormControlSelect1">ご希望のコース</label><span class="require">必須</span></dt>
+					<dd>
+						<select class="form-control"  name="course" onchange="decide()">
+							<option value disabled selected style="display:none;">ご希望のコースを選択してください</option>
+							<option value="BASICコース">ベーシックコース</option>
+							<option value="STANDARDコース">スタンダードコース</option>
+							<option value="PREMIUMコース">プレミアムコース</option>
+						</select>
+					</dd>
+				</dl>
+			</div>
+			<div class="form-group">
+				<dl>
+					<dt class="form-title"><label for="other">その他</label></dt>
+					<dd><textarea class="form-control" id="exampleFormControlTextarea1" name="content" rows="5" placeholder="その他お問い合わせ内容について"></textarea></dd>
+				</dl>
+			</div>
+			<button type="submit" value="送信" class="btn">送　信</button>
+		  </form>
+	  </div>
+	  <div class="man"><img src="../images/指差しビジネスマン.png" alt="指差しビジネスマン"></div>
+	</div>
+</section>
+<!--//contact------->	
+</div>	
+<footer class="footer text-center">
+	<p class="company">English lab.</p>
+	<p class="footer-adress">〒151-0053 東京都渋谷区代々木2丁目36-11 <br class="br-sp">SY23611  101号室</p>
+    <p class="copyrights"><small>Copyright ©️ English Lab. All Rights Reserved.</small></p>
+</footer>
+<!--Javascript/	-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+
+		$(function(){
+			$(window).on("scroll",function(){
+				$(".site-header").stop();
+				$(".site-header").css('display','none').delay(500).fadeIn('fast');
+			});
+		});
+
+
+		$(".btn-trigger").on("click",function(){
+				$(this).toggleClass("active");
+				$(".header_nav").fadeToggle(500);
+		});	
+	</script>
+<!--//Javascript----------->	
+</body>
+</html>
