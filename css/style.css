@@ -48,6 +48,7 @@ input, button, textarea, select {
 	padding: 32px 32px 0 32px;
 	display: flex;
 	width: 100%;
+	align-items: center;
 }
 
 .global-nav ul li{
@@ -66,7 +67,7 @@ input, button, textarea, select {
 	text-shadow: 2px 2px 3px gray;
 }
 
-.global-nav ul .site-title a{
+.global-nav>ul>li.site-title>a{
 	font-size: 3rem;
 	font-family:'Crete Round', serif;
 	font-weight: bold;
@@ -186,7 +187,7 @@ position: relative;
 *-------------------*/
 .firstview-box{
   box-sizing: border-box;
-  padding: 25% 0 15%;
+  padding: 20% 0 10%;
   width:100%;
   height:auto;
   display: flex;
