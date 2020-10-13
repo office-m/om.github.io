@@ -808,7 +808,6 @@ body{
 .section-title{
 	font-size: 2.4rem;
 	margin-bottom: 48px;
-	letter-spacing:0;
 }
 	
 /*------------------------------
@@ -817,6 +816,7 @@ body{
 .section-title.ff-jp{
 	font-size: 2.2rem;
 	line-height:1.5;
+	letter-spacing:-0.025;
 }
 .jobposition-1{
 	margin-bottom: 8px;	
