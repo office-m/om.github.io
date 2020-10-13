@@ -344,10 +344,10 @@ input, button, textarea, select {
 
 .course-box{
 	text-align: center;
-	background:#fff;/*背景色*/
+	background:#fff;
 	width:30%;
 	height:auto;
-	border-radius: 15px;/*角の丸み*/
+	border-radius: 15px;
 	box-shadow: -5px 5px 5px #A39E9E;
 	padding: 1rem 0;
 }
@@ -837,7 +837,7 @@ body{
 	margin-bottom: 24px;
 }
 .media-title{
-	line-height:1.2;
+	line-height:1.5;
 }
 .trainer-name,.job-position{
 	text-align: center;
